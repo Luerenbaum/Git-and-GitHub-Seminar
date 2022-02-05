@@ -18,6 +18,9 @@ aus welcher der 3 config-Dateien kommen die Konfigurationen
 * ``git commit -a -m "<message>" Fügt alle gelöschten oder geänderten (_keine neu erstellten_) in die Staging-Area hinzu und führt einen Commit aus.
 * ``git reset <file-name/path>`` Entfernt die Änderungen an der Datei aus der Staging-Area.
 
+## Befehle für Remote Repositories
+* ``git push`` Platzhalter
+
 ## Nützliche andere Befehle
 * ``git rm -f <file-name/path>`` Löscht eine Datei __lokal & im Staging-Area__.
 * ``git rm --cached <file-name/path>`` Löscht eine Datei (__nur auf der Seite von Git__). Nützlich, um Dateien zu entfernen, die versehentlich mit in das Repository hinzugefügt wurden.
@@ -26,3 +29,5 @@ aus welcher der 3 config-Dateien kommen die Konfigurationen
 * ``git clean -fd`` Erzwingt das entfernen von Dateien, die nicht im Repository eingecheckt sind.
 * ``git tag <tag-name>`` Benennt die aktuelle Revision im Repository über das erstellen eines Tags.
 * ``git tag --list`` Gibt alle aktuell im Repository bekannten Tags aus.
+* ``git log`` Gibt eine Versionshistory aller Commits mit den entsprechenden Informationen über User und Commit Hash aus
+* ``git log --oneline`` Gibt eine Versionshistory aller Commits Zeile für Zeile aus
